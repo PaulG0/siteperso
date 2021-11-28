@@ -22,16 +22,6 @@ $page=yaml_parse($content)
 		}
 		?>
 	</nav>
-<?php
-if ($nav =="accueil") {
-	echo "salut";
-}elseif ($nav =="propos") {
-	echo "hello";
-}elseif ($nav =="competence") {
-	echo "world";
-}
 
-
-?>
 </body>
 </html>
