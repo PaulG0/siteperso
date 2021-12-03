@@ -22,6 +22,35 @@ $page=yaml_parse($content)
 		}
 		?>
 	</nav>
+	<section id="accueil">
+		<p>
+			
+		</p>
+	</section>
+	<section id="accueil">
+		<p>
+			
+		</p>
+	</section>
+	<section id="accueil">
+		<p>
+			
+		</p>
+	</section>
+	<section id="accueil">
+		<p>
+			
+		</p>
+	</section>
+<?php
+if ($page =="accueil") {
+	echo "salut";
+}elseif ($page =="propos") {
+	echo "hello";
+}elseif ($page =="competence") {
+	echo "world";
+}
+
 
 </body>
 </html>
