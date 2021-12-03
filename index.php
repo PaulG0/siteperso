@@ -22,12 +22,17 @@ $page=yaml_parse($content)
 		}
 		?>
 	</nav>
+	<section id="accueil">
+		<p>
+			
+		</p>
+	</section>
 <?php
-if ($nav =="accueil") {
+if ($page =="accueil") {
 	echo "salut";
-}elseif ($nav =="propos") {
+}elseif ($page =="propos") {
 	echo "hello";
-}elseif ($nav =="competence") {
+}elseif ($page =="competence") {
 	echo "world";
 }
 
