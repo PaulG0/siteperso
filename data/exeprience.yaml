@@ -1,0 +1,15 @@
+- 
+  domain: informatique
+  datedebut: 17 janvier 1204
+  datefin: 1 janvier 1970
+  travail: ingenieur
+- 
+  domain: recyclage
+  datedebut: 17 janvier 1205
+  datefin: 1 janvier 1971
+  travail: eboueurs
+-
+  domain: militaire
+  datedebut: 17 janvier 1933
+  datefin: 1 janvier 1945
+  travail: infanterie

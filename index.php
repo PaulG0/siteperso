@@ -15,42 +15,25 @@ $page=yaml_parse($content)
 </head>
 <body>
 	<nav>
-		<nav ></nav>
+	
 		<?php
 		foreach ($page as $nav => $ancre) {
-			echo "<a class='menu'href='#$ancre'>$nav</a>";
+			echo "<a class='menu'href='#$nav'>$ancre</a>";
 		}
 		?>
+
 	</nav>
-	<section id="accueil">
-		<p>
-			
-		</p>
-	</section>
-	<section id="accueil">
-		<p>
-			
-		</p>
-	</section>
-	<section id="accueil">
-		<p>
-			
-		</p>
-	</section>
-	<section id="accueil">
-		<p>
-			
-		</p>
-	</section>
-<?php
-if ($page =="accueil") {
-	echo "salut";
-}elseif ($page =="propos") {
-	echo "hello";
-}elseif ($page =="competence") {
-	echo "world";
-}
+	<main>
+	
+		<?php
+		foreach ($page as $nav => $ancre) {
+			echo "<section id='$nav'>";
+			include("php/$nav.php");
+			echo "</section>";
+		}
+		?>
 
-
+	</main>
 </body>
 </html>
+

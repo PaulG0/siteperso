@@ -13,6 +13,17 @@ nav{
 }
 
 .menu:hover{
-	border-top: 3px solid black;
-	border-bottom: 3px solid black;
+	text-decoration: underline 3px;
 }
+
+section:not(:target){
+	display:none;
+	
+}
+
+section:target{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
