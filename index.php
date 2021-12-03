@@ -27,6 +27,21 @@ $page=yaml_parse($content)
 			
 		</p>
 	</section>
+	<section id="accueil">
+		<p>
+			
+		</p>
+	</section>
+	<section id="accueil">
+		<p>
+			
+		</p>
+	</section>
+	<section id="accueil">
+		<p>
+			
+		</p>
+	</section>
 <?php
 if ($page =="accueil") {
 	echo "salut";
@@ -37,6 +52,5 @@ if ($page =="accueil") {
 }
 
 
-?>
 </body>
 </html>
