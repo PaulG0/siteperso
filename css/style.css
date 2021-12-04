@@ -27,3 +27,6 @@ section:target{
 	align-items: center;
 }
 
+.job{
+	border: 3px solid black;
+}
