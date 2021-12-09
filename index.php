@@ -37,10 +37,8 @@ $page=yaml_parse($content)
 </body>
 <footer>
 <?php
-		foreach ($page as $nav => $ancre) {
-			echo "<section id='$nav'>";
-			include("php/$nav.php");
-			echo "</section>";
+	foreach ($page as $nav => $ancre) {
+		echo "<a class='footermenu'href='#$nav'>$ancre</a>";
 		}
 		?>
 
