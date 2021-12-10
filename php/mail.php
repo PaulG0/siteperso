@@ -22,8 +22,8 @@ function sendMail(string $to, string $from, string $from_name, string $subject, 
             ];
  
     $mail->SMTPAuth = true;  // Authentification SMTP active
-    $mail->Username = "gouinpaultest@gmail.com";
-    $mail->Password = '110562Ag';
+    $mail->Username = "tes@gmail.com";
+    $mail->Password = 'password';
  
     $mail->isHTML(true);
     $mail->SetFrom($from, $from_name);

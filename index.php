@@ -1,4 +1,3 @@
-
 <?php
 $content=file_get_contents('data/nav.yaml');
 $page=yaml_parse($content)
@@ -24,7 +23,6 @@ $page=yaml_parse($content)
 	</nav>
 	<main>
 		<?php
-		include('php/accueil.php');
 
 		foreach ($page as $nav => $ancre) {
 			echo "<section id='$nav'>";
