@@ -1,87 +1,91 @@
-nav{height: auto;
-	width: 100%;
-	position: fixed;
-	text-align: center;
-	display: flex;
-	justify-content: space-between;
-	background: #009FFF;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, #ec2F4B, #009FFF);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right, #ec2F4B, #009FFF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+nav {
+    z-index: 5;
+    height: auto;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    background: #009FFF;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ec2F4B, #009FFF);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ec2F4B, #009FFF);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-
-body{
-	background-color: lightgray;
-
+body {
+    background-color: lightgray;
 }
 
-.menu{
-	font-weight: 500;
-	width: 100%;
-	display: flex;
-	align-items: flex-start;
-	color: whitesmoke;
-	font-size: 20px;
-	padding: 20px 5px;
-	text-decoration: none;
-
+.menu {
+    font-weight: 500;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    color: whitesmoke;
+    font-size: 20px;
+    padding: 20px 5px;
+    text-decoration: none;
 }
 
-.menu:hover{
-	text-decoration: underline 3px white ;
+.menu:hover {
+    text-decoration: underline 3px white;
 }
 
-section:not(:target){
-	display:none;
-	
+section:not(:target) {
+    display: none;
 }
 
-section:target{
-	display: flex;
-	font-size: 20px;
-	flex-direction: column;
-	align-items: center;
-	position: relative;
-	top:100px;
+section:target {
+    z-index: 3;
+    display: flex;
+    font-size: 20px;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 100px;
 }
 
-.job{
-	border: 3px solid black;
-}
-.formation{
-	display: flex;
-	font-size: 20px;
-	justify-content: center;
-	margin: 10px;
-	width: 600px;
-	padding: 5px;
-	border: 3px solid black;
-
+.job {
+    border: 3px solid black;
 }
 
-
-
-
-
-footer{
-	width: 100%;
-	height: auto;
-	position: fixed;
-	bottom: 0px;
-	left: 0px;
-	background: #009FFF;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, #ec2F4B, #009FFF);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right, #ec2F4B, #009FFF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+.formation {
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    margin: 10px;
+    width: 600px;
+    padding: 5px;
+    border: 3px solid black;
 }
-.footermenu{
-	display: flex;
-	align-items: center;
-	color: whitesmoke;
-	font-size: 15px;
-	padding: 3px;
-	text-decoration: none;
+
+footer {
+    z-index: 5;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    background: #009FFF;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ec2F4B, #009FFF);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ec2F4B, #009FFF);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-.footermenu:hover{
-	text-decoration: underline 3px white ;
+
+.footermenu {
+    display: flex;
+    align-items: center;
+    color: whitesmoke;
+    font-size: 15px;
+    padding: 3px;
+    text-decoration: none;
+}
+
+.footermenu:hover {
+    text-decoration: underline 3px white;
 }

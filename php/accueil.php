@@ -11,5 +11,5 @@ $acc=yaml_parse($intro);
 <div class='intro'>
 je m'appelle <?=$acc['prenom']?>
 
-cette page internet a  etait faie dans le but d'un projet de classe
+cette page internet a  etait faite dans le but d'un projet de classe en 2021
 </div>
