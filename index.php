@@ -5,36 +5,38 @@ $page=yaml_parse($content)
 
 <!DOCTYPE html>
 <html>
+
 <head>
-	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title></title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
 </head>
+
 <body>
-	<nav>
-	
-		<?php
+    <nav>
+
+        <?php
 		foreach ($page as $nav => $ancre) {
 			echo "<a class='menu'href='#$nav'>$ancre</a>";
 		}
 		?>
 
-	</nav>
-	<main>
-		<?php
+    </nav>
+    <main>
+        <?php
 
 		foreach ($page as $nav => $ancre) {
-			echo "<section id='$nav'>";
+			echo "<div><section id='$nav'>";
 			include("php/$nav.php");
-			echo "</section>";
+			echo "</section></div>";
 		}
 		?>
 
-	</main>
+    </main>
 </body>
 <footer>
-<?php
+    <?php
 	foreach ($page as $nav => $ancre) {
 		echo "<a class='footermenu'href='#$nav'>$ancre</a>";
 		}
@@ -43,4 +45,3 @@ $page=yaml_parse($content)
 </footer>
 
 </html>
-
