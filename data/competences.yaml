@@ -15,13 +15,13 @@
       niveau: 20
     -
       competence: java
-      niveau: 0
+      niveau: 1
     - 
       competence: c/c+/c++
-      niveau: 0
+      niveau: 1
     -
       competence: jquery
-      niveau: 0
+      niveau: 1
 -
   domaine: Langues
   items:
@@ -55,6 +55,5 @@
     -
       competence: logiciel bureatique
       niveau : 60
-    -
-    
+
 

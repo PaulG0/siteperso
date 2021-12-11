@@ -49,24 +49,35 @@ section:target {
 }
 
 .job {
+    width: 500px;
     border: 3px solid black;
 }
 
 .formation {
     display: flex;
     font-size: 20px;
-    justify-content: center;
+    justify-content: flex-start;
+    height: 100px;
     margin: 10px;
-    width: 600px;
+    width: 700px;
     padding: 5px;
     border: 3px solid black;
+}
+
+#competenceglobal {
+    margin-bottom: 100px;
+    padding: 50px;
+}
+
+.competenceperso {
+    border: 5px solid black;
 }
 
 footer {
     z-index: 5;
     width: 100%;
     height: auto;
-    position: fixed;
+    position: relative;
     bottom: 0px;
     left: 0px;
     background: #009FFF;
