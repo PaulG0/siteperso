@@ -3,6 +3,7 @@ $competence=file_get_contents('./data/competences.yaml');
 $com=yaml_parse($competence);
 ?>
 <h1>Mes competences</h1>
+<h4>certaine competence sont a 0 car je n'ai toujours pas etudier se type de lenguage mais cela fait partie de mes projet </h4>
 <?php
 
 foreach($com AS $domaine){
