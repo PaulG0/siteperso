@@ -3,7 +3,7 @@ $competence=file_get_contents('./data/competences.yaml');
 $com=yaml_parse($competence);
 ?>
 <h1>Mes competences</h1>
-certaine competence sont vide car je n'ai toujours pas etudier se type de lenguage mais cela fait partie de mes projet
+certaines competences sont vides car je n'ai toujours pas etudié ce type de language mais cela fait partie de mes projets.
 <div id='competenceglobal'>
 
 <?php

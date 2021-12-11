@@ -1,10 +1,17 @@
+<!DOCTYPE html>
+<html lang='fr'>
+
 <?php
 $content=file_get_contents('data/nav.yaml');
-$page=yaml_parse($content)
+$page=yaml_parse($content);
+
+$infoperso=file_get_contents('data/contact.yaml');
+$persoinfo=yaml_parse($infoperso);
 ?>
 
-<!DOCTYPE html>
-<html>
+?>
+
+
 
 <head>
     <meta charset="utf-8">
