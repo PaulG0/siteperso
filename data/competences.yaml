@@ -10,18 +10,30 @@
     -
       competence: CSS
       niveau: 50  
+    -
+      competence: yaml
+      niveau: 20
+    -
+      competence: java
+      niveau: 0
+    - 
+      competence: c/c+/c++
+      niveau: 0
+    -
+      competence: jquery
+      niveau: 0
 -
   domaine: Langues
   items:
     -
       competence: Francais
-      niveau : 100
+      niveau : 60
     -
       competence: Anglais
-      niveau: 50
+      niveau: 30
     -
-      competence: Allemand
-      niveau: 15
+      competence: espagnol
+      niveau: 40
 -
   domaine: Réseau
   items:
@@ -41,11 +53,8 @@
       competence: sketchup
       niveau: 50
     -
-      competence: logiciel 
-      niveau : 50
+      competence: logiciel bureatique
+      niveau : 60
     -
-      competence: Tableur
-      niveau: 40
-    -
-      competence: Montage Photo
-      niveau: 20
+    
+
