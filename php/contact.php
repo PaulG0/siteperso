@@ -34,10 +34,10 @@
 // envoi d'un email à webmaster@tutovisuel.com
 
 
-if(!mail("gouinpautest@gmail.com", "test", "Le message\nligne2")){
+if(!mail("gouinpaultest@gmail.com", "test", "Le message\nligne2")){
     echo "erreur";
 }else{
-    mail("gouinpautest@gmail.com", "test", "Le message\nligne2");
+    mail("gouinpaultest@gmail.com", "test", "Le message\nligne2");
 }
 //include('mail.php')
 
