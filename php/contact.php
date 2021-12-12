@@ -9,7 +9,7 @@
 
 </fieldset>
 <fieldset>
-    <form method='post'>        
+    <form method='post' action="">        
         <label for="nom">NOM:</label>
         <input type="text" name='nom'>
 
@@ -23,7 +23,7 @@
         <input type="number" name="tel">
 
 
-        <input type="submit" >
+        <input type="submit" id='envoi' name='envoi' value="ok" >
 
     </form>
 </fieldset>
@@ -32,8 +32,13 @@
 
 <?php
 // envoi d'un email à webmaster@tutovisuel.com
-mail("gouinpautest@gmail.com", "test", "Le message\nligne2");
 
+
+if(!mail("gouinpautest@gmail.com", "test", "Le message\nligne2")){
+    echo "erreur";
+}else{
+    mail("gouinpautest@gmail.com", "test", "Le message\nligne2");
+}
 //include('mail.php')
 
 ?>
