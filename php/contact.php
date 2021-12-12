@@ -9,7 +9,7 @@
 
 </fieldset>
 <fieldset>
-    <form method='post' action='php/mail.php'>        
+    <form method='post'>        
         <label for="nom">NOM:</label>
         <input type="text" name='nom'>
 
@@ -23,7 +23,7 @@
         <input type="number" name="tel">
 
 
-        <input type="submit">
+        <input type="submit" >
 
     </form>
 </fieldset>
@@ -31,7 +31,8 @@
 
 
 <?php
-
+// envoi d'un email à webmaster@tutovisuel.com
+mail("gouinpautest@gmail.com", "test", "Le message\nligne2");
 
 //include('mail.php')
 
