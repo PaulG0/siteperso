@@ -11,10 +11,14 @@ if ($_POST["tel"]=="") {
 $mail_entre=$_POST["email"];
 
 if ($_POST["body"]=="") {
-    $numero="non fourni";
+    $corp="non fourni";
      }else{
-     $numero=$_POST["body"];
+     $corp=$_POST["body"];
  }
+
+$body="l'entreprise ".$nom."<br> num : ".$numero;
+
+
 ?>
 
 <?php
@@ -50,7 +54,7 @@ $mail->AddAddress(trim("gouinpaul2003@gmail.com"));
 
 $mail->Subject    = "site cv";                      //Le sujet du mail
 $mail->WordWrap   = 50; 			       //Nombre de caracteres pour le retour a la ligne automatique
-$mail->Body = $_POST["body"]; 	       //Texte brut
+$mail->Body = $body; 	       //Texte brut
 $mail->IsHTML(true);                                  //Préciser qu'il faut utiliser le texte brut
 
 if (!$mail->send()) {
