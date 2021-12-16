@@ -83,8 +83,9 @@ section:target {
 }
 
 footer {
-    position: relative;
-    top: 100px;
+    position: fixed;
+
+    bottom: 0px;
     z-index: 5;
     width: 100%;
     height: auto;
