@@ -82,7 +82,20 @@ section:target {
     border: 5px solid black;
 }
 
-.renvoimessage{
+fieldset {
+    width: 450px;
+    height: auto;
+    font-size: 25px;
+    margin: 20px;
+    padding: 20px;
+    border: 3px solid black;
+}
+
+.basfield {
+    margin-bottom: 200px;
+}
+
+.renvoimessage {
     color: black;
     font-size: 40px;
     position: relative;

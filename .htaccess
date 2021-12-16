@@ -1,0 +1,8 @@
+AuthUserFile /data/
+AuthGroupFile /dev/null
+AuthName {"données secu"}
+AuthType Basic
+
+<Limit GET POST>
+require user PaulG0
+</Limit>
