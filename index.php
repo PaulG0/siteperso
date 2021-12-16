@@ -9,7 +9,6 @@ $infoperso=file_get_contents('data/contact.yaml');
 $persoinfo=yaml_parse($infoperso);
 ?>
 
-?>
 
 
 
