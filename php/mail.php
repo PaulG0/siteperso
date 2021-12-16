@@ -67,7 +67,7 @@ if (!$mail->send()) {
 
 
 
-  <meta http-equiv='Refresh' content='3 href'../index.php'>
+  <meta http-equiv='Refresh' content='3' href='../index.php'>
 
 ";
 
