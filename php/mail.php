@@ -65,4 +65,18 @@ if (!$mail->send()) {
 
 
 
+
+echo "
+
+  <h3>Vous allez être redirigé vers  dans 3 secondes</h3>
+
+
+
+  <meta http-equiv='Refresh' content='3 href='../index.php'>
+
+";
+
+
+
+?>
 ?>
