@@ -82,8 +82,16 @@ section:target {
     border: 5px solid black;
 }
 
+.renvoimessage{
+    color: black;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
 footer {
-    position: fixed;
+    position: absolute;
     bottom: 0px;
     z-index: 5;
     width: 100%;
