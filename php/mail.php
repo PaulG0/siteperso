@@ -61,23 +61,13 @@ if (!$mail->send()) {
       echo $mail->ErrorInfo;
 } else{
       echo 'Message bien envoyé';
-      echo "
+      ?>
 
   <h3>Vous allez être redirigé vers l'accueil dans 3 secondes</h3>
 
-
-
-  <meta http-equiv='Refresh' content='3;URL=../index.php'>
-
-";
+  <meta http-equiv='Refresh' content='3' href="../index.php">
+    <?php
 
 }
-
-
-
-
-
-
-
 ?>
-?>
+
