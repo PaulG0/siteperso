@@ -20,7 +20,7 @@ $body="l'entreprise ".$nom."est interesser par votre candidature <br> son  num :
 
 
 ?>
-<body>
+
     
 
 <?php
@@ -74,4 +74,3 @@ if (!$mail->send()) {
 }
 ?>
 
-</body>

@@ -85,9 +85,8 @@ section:target {
 .renvoimessage{
     color: black;
     font-size: 40px;
-    display: flex;
-    align-items: center;
-    justify-items: center;
+    position: relative;
+    top: 50%;
 }
 
 footer {
