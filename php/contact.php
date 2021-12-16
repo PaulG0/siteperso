@@ -21,11 +21,11 @@
         <label> informations divers</label><br>
         <textarea name="body" placeholder="informations supplementaire que vous pouvez souhiaitez en plus">	</textarea>
         <br>
+        <div class="g-recaptcha" data-sitekey="cle_recapcha"></div>
         <br>
         <input type="submit" value="Submit" />
     </form>
 </fieldset>
-
 <!--client-->
 6LdkZKkdAAAAAKgMLMlShdyOvZlJjJfZeODPa8mU
 <!--serveur-->
