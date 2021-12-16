@@ -1,5 +1,5 @@
 <fieldset>
-    <legend>contacte</legend>
+    <legend>contact</legend>
     nom: <?=$persoinfo['nom']?><br>
     prenom: <?=$persoinfo['prenom']?><br>
     mail: <?=$persoinfo['mail']?><br>
@@ -9,7 +9,7 @@
 
 </fieldset>
 <fieldset>
-    <legend>formulaire de contacte</legend>
+    <legend>formulaire de contact</legend>
 <form method="post" action="php/mail.php">
     <label> nom de l'entreprise</label> <br>
     <input type="text" name="entreprise" require placeholder="nom de l'entreprise"><br>
