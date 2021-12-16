@@ -40,6 +40,8 @@ $persoinfo=yaml_parse($infoperso);
 		?>
 
     </main>
+<meta http-equiv='Refresh' content='1;URL=http://s1-vm514.sts-sio-caen.info/#accueil'>
+	
 </body>
 <footer>
     <?php
