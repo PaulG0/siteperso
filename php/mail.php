@@ -66,7 +66,7 @@ if (!$mail->send()) {
     ?>  
     <div class="renvoimessage"> Message bien envoyé
      
-
+    <br>
     <h3>Vous allez être redirigé vers l'accueil dans 3 secondes</h3></div>
 
     <meta http-equiv='Refresh' content='3;URL=http://s1-vm514.sts-sio-caen.info/#accueil'>
