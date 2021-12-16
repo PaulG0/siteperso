@@ -69,7 +69,7 @@ if (!$mail->send()) {
 
     <h3>Vous allez être redirigé vers l'accueil dans 3 secondes</h3></div>
 
-    <meta http-equiv='Refresh' content='URL=http://s1-vm514.sts-sio-caen.info/#accueil'>
+    <meta http-equiv='Refresh' content='3;URL=http://s1-vm514.sts-sio-caen.info/#accueil'>
     <?php
 
 }
