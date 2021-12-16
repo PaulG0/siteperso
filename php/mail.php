@@ -16,7 +16,7 @@ if ($_POST["body"]=="") {
      $corp=$_POST["body"];
  }
 
-$body="l'entreprise ".$nom."est interesser par votre candidature <br> son  num : ".$numero."<br> son adresse mail : ".$mail_entre."<br> elle vous a laisser comme information supplementaire : <br>".$body;
+$body="l'entreprise ".$nom."est interesser par votre candidature <br> son  num : ".$numero."<br> son adresse mail : ".$mail_entre."<br> elle vous a laisser comme information supplementaire : <br>".$corp;
 
 
 ?>
