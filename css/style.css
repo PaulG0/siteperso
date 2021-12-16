@@ -91,7 +91,7 @@ section:target {
 }
 
 footer {
-    position: absolute;
+    position: fixed;
     bottom: 0px;
     z-index: 5;
     width: 100%;
