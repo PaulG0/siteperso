@@ -17,6 +17,31 @@ if ($_POST["body"]=="") {
      $corp=$_POST["body"];
  }
 
+
+
+
+ if(isset($_POST['g-recaptcha-response'])){
+    $captcha=$_POST['g-recaptcha-response'];
+}
+
+// !!! Si on oublie le CAPTCHA !!! //
+
+if(!$captcha){
+    echo 'Vous avez oublié le Captcha.';
+    exit;
+    }
+
+// !!! ON VALIDE LE CAPTCHA !!! //
+
+$secretKey = "6LdkZKkdAAAAAOW1LOAb1dThGCyif1DUf4RwAcSN";
+$ip = $_SERVER['REMOTE_ADDR'];
+// post requête du serveur
+
+$url = 'https://www.google.com/recaptcha/api/siteverify?secret=' . urlencode($secretKey) .  '&response=' . urlencode($captcha);
+$response = file_get_contents($url);
+$responseKeys = json_decode($response,true);
+
+
 $body="l'entreprise ".$nom."est interesser par votre candidature <br> son  num : ".$numero."<br> son adresse mail : ".$mail_entre."<br> elle vous a laisser comme information supplementaire : <br>".$corp;
 
 

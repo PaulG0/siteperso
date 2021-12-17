@@ -21,7 +21,7 @@
         <label> informations divers</label><br>
         <textarea name="body" placeholder="informations supplementaire que vous pouvez souhiaitez en plus">	</textarea>
         <br>
-        <div class="g-recaptcha" data-sitekey="cle_recapcha"></div>
+        <div class="g-recaptcha" data-sitekey="6LdkZKkdAAAAAKgMLMlShdyOvZlJjJfZeODPa8mU"></div>
         <br>
         <input type="submit" value="Submit" />
     </form>

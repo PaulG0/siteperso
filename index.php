@@ -16,7 +16,8 @@ $persoinfo=yaml_parse($infoperso);
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title></title>
+	<script src="https://www.google.com/recaptcha/api.js?render=ICI_LA_CLE_DU_SITE"></script>
+    <title><?=$nav?></title>
 </head>
 
 <body>
